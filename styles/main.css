@@ -1,0 +1,19 @@
+@keyframes triangle {
+    0% {
+        stroke: green;
+        fill: yellowgreen;
+    }
+    50% {
+        stroke: yellow;
+        fill: orangered;
+    }
+    100% {
+        stroke: red;
+        fill: darkred;
+    }
+}
+
+.animated {
+    animation: triangle 2s infinite linear;
+    stroke-width: 5px;
+}
